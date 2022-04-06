@@ -1,8 +1,13 @@
 import React, {FC} from "react";
+import TopHeader from "../components/topPage/topHeader";
+import TopMain from "../components/topPage/topMain";
 
 const TopPage: FC = () => {
     return(
-        <h2>Reactコンポーネントだよ</h2>
+        <div>
+            <TopHeader />
+            <TopMain />
+        </div>
     );
 }
 
