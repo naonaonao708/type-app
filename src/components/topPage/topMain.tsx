@@ -12,6 +12,14 @@ const useStyle = makeStyles(() =>
             backgroundSize: 'cover',
             height: '100vh',
         },
+
+        laptop: {
+            position: 'relative',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            top: '33%',
+            width: '45%',
+        }
     }),
 )
 

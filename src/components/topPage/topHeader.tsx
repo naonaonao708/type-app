@@ -5,7 +5,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 
 const TopHeader: FC = () => {
     return(
-        <AppBar>
+        <AppBar position="static">
             <TopHeader>
                 <h2>タイトル</h2>
             </TopHeader>
